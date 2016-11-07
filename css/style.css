@@ -1,0 +1,16 @@
+body {
+	font-family: "PT Sans Narrow", "Helvetica", "Arial", "sans-serif";
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #000000;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 24px;
+}
+.user-block{
+	width: 100%;
+	height: auto;
+ }
