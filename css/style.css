@@ -4,6 +4,8 @@ body {
 	font-weight: bold;
 	line-height: 150%;
 	color: #000000;
+	width:1200px;
+	height: 1162px;
 }
 
 h1 {
@@ -14,3 +16,41 @@ h1 {
 	width: 100%;
 	height: auto;
  }
+}
+
+.main-header{
+	background-color:green;
+	margin-bottom: 57px;
+}
+
+.container {
+	width:1200px;
+	margin: 0 auto;
+	background-color:red;
+	padding:0 15px;
+}
+
+.main-navigation {
+  min-height: 75px
+  width:643px;
+  float:left;
+}
+
+.user-block {
+	width: 113px;
+   float:right;
+  min-height: 75px;
+
+}
+
+.clearfix::after{
+	content: "";
+	display:table;
+	clear: both;
+}
+
+
+
+
+
+
