@@ -19,38 +19,114 @@ h1 {
 }
 
 .main-header{
-	background-color:green;
 	margin-bottom: 57px;
+	outline: green;
 }
 
 .container {
 	width:1200px;
 	margin: 0 auto;
-	background-color:red;
-	padding:0 15px;
+	padding:0 149px;
+	outline:solid red;
 }
 
 .main-navigation {
   min-height: 75px
   width:643px;
   float:left;
+  outline:solid green;
 }
 
 .user-block {
 	width: 113px;
    float:right;
-  min-height: 75px;
-
+   min-height: 75px;
+   outline:solid yellow;
+}
+ .item-header {
+ 	width:633px;
+ 	min-height: 133px;
+ 	padding:0 15px;
+ 	outline:solid yellow;
+ }
+.item-content {
+	padding: 0 149px;
 }
 
-.clearfix::after{
+
+
+.clearfix::after {
 	content: "";
 	display:table;
 	clear: both;
 }
 
+.item-gallery-content {
+margin-left: -160px;
+float:left;
+display: inline-block;
+margin-bottom: 30px;
+}
+
+.item-content-right {
+	width: 400px;
+	height: 200px;
+	display: inline-block;
+	float:left;
+	margin-left:150px;
+	margin-top:10px;
+}
+
+.item-included {
+	width: 400px;
+	height: 199px;
+	display: inline-block;
+	float:right;
+
+}
 
 
+.item-gallery-bottom{
+	float:left;
+	margin-left: -250px;
+	margin-top:250px;
+	outline: solid red;
+
+}
+
+.clearfix::after {
+  content: "";
+}
+
+.item-content {
+	width: 1200px;
+	height: 724px;
+}
+
+.main-footer {
+ margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+	min-height: 90px;
+	float: left;
+  	width: 320px;
+  	margin-right: 60px;
+}
+
+.footer-social {
+	min-height: 90px;
+	float: left;
+  	width: 180px;
+  }
 
 
+.footer-copyright {
+	max-height: 90px;
+	 float: right;
+  	width: 180px;
+
+}
 
