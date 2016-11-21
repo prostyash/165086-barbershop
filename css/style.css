@@ -4,7 +4,6 @@ body {
 	font-weight: bold;
 	line-height: 150%;
 	color: #000000;
-	width:1200px;
 	height: 1162px;
 }
 
@@ -51,6 +50,8 @@ h1 {
  }
 .item-content {
 	padding: 0 149px;
+	width: 950px;
+	height: 726px;
 }
 
 
@@ -62,17 +63,14 @@ h1 {
 }
 
 .item-gallery-content {
-margin-left: -160px;
 float:left;
-display: inline-block;
 margin-bottom: 30px;
 }
 
 .item-content-right {
 	width: 400px;
-	height: 200px;
-	display: inline-block;
-	float:left;
+	height: 522px;
+	float:right;
 	margin-left:150px;
 	margin-top:10px;
 }
@@ -82,16 +80,14 @@ margin-bottom: 30px;
 	height: 199px;
 	display: inline-block;
 	float:right;
-
 }
 
 
 .item-gallery-bottom{
-	float:left;
+	display: inline-block;
 	margin-left: -250px;
 	margin-top:250px;
 	outline: solid red;
-
 }
 
 .clearfix::after {
@@ -122,11 +118,11 @@ margin-bottom: 30px;
   	width: 180px;
   }
 
-
 .footer-copyright {
 	max-height: 90px;
 	 float: right;
   	width: 180px;
-
 }
+
+.
 
