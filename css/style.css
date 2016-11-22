@@ -23,7 +23,7 @@ h1 {
 }
 
 .container {
-	width:1200px;
+	height:auto;
 	margin: 0 auto;
 	padding:0 149px;
 	outline:solid red;
@@ -49,12 +49,8 @@ h1 {
  	outline:solid yellow;
  }
 .item-content {
-	padding: 0 149px;
 	width: 950px;
-	height: 726px;
 }
-
-
 
 .clearfix::after {
 	content: "";
@@ -63,30 +59,28 @@ h1 {
 }
 
 .item-gallery-content {
-float:left;
-margin-bottom: 30px;
+	float:left;
+	margin-bottom: 30px;
+	margin-right:40px;
 }
 
 .item-content-right {
 	width: 400px;
-	height: 522px;
 	float:right;
-	margin-left:150px;
-	margin-top:10px;
+	min-height: 666px;
+	margin-left:10px;
+	margin-top:85px;
+	outline:solid purple;
 }
 
 .item-included {
 	width: 400px;
-	height: 199px;
-	display: inline-block;
-	float:right;
+	float: right;
 }
 
 
-.item-gallery-bottom{
+.item-gallery-bottom{ 
 	display: inline-block;
-	margin-left: -250px;
-	margin-top:250px;
 	outline: solid red;
 }
 
@@ -96,13 +90,11 @@ margin-bottom: 30px;
 
 .item-content {
 	width: 1200px;
-	height: 724px;
+	height: auto;
 }
 
 .main-footer {
  margin-top: 65px;
-  padding-top: 60px;
-  padding-bottom: 40px;
 }
 
 .footer-contacts {
@@ -120,9 +112,42 @@ margin-bottom: 30px;
 
 .footer-copyright {
 	max-height: 90px;
-	 float: right;
+	float: right;
   	width: 180px;
 }
 
-.
+.item-content-left {
+	float:left;
+	outline: solid yellow;
+	margin-top:120px;
+	padding:0 15px;
+	margin-right:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
