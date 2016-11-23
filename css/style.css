@@ -59,7 +59,6 @@ h1 {
 }
 
 .item-gallery-content {
-	float:left;
 	margin-bottom: 30px;
 	margin-right:40px;
 }
@@ -99,25 +98,22 @@ h1 {
 
 .footer-contacts {
 	min-height: 90px;
-	float: left;
   	width: 320px;
   	margin-right: 60px;
 }
 
 .footer-social {
 	min-height: 90px;
-	float: left;
+
   	width: 180px;
   }
 
 .footer-copyright {
 	max-height: 90px;
-	float: right;
   	width: 180px;
 }
 
 .item-content-left {
-	float:left;
 	outline: solid yellow;
 	margin-top:120px;
 	padding:0 15px;
