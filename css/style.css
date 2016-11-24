@@ -103,19 +103,33 @@ h1 {
 
 .footer-social {
 	min-height: 90px;
+<<<<<<< HEAD
+
+=======
 	display: inline-block;
+>>>>>>> 5d275bda5143fa8ab4fedaf36fe820319ccc73d0
   	width: 180px;
   	margin-left: 550px;
   }
 
 .footer-copyright {
+<<<<<<< HEAD
+	max-height: 90px;
+=======
 	max-height: 90px;	
+>>>>>>> 5d275bda5143fa8ab4fedaf36fe820319ccc73d0
   	width: 180px;
   	float: right;
 }
 .item-content-left {
+<<<<<<< HEAD
 	float:left;
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 52b21478a730ff91a625d2073566b76c29bc0d71
 	width:600px;
+>>>>>>> 5d275bda5143fa8ab4fedaf36fe820319ccc73d0
 	outline: solid yellow;
 	margin-top:50px;
 	margin-left:130px;
